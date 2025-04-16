@@ -7,7 +7,7 @@
 ```bash
 git clone https://github.com/gen2-acidking/kefir.git
 cd kefir
-chmod +x install.sh
+chmod +x setup.sh
 ./install.sh
 ```
 

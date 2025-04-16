@@ -26,7 +26,7 @@ fi
 mkdir -p "$INSTALL_DIR"
 echo -e "${YELLOW}Copying files to $INSTALL_DIR...${NC}"
 cp kefir.py "$INSTALL_DIR/"
-cp finnish_ascii_map.json "$INSTALL_DIR/" 2>/dev/null || echo -e "${YELLOW}Warning: finnish_ascii_map.json not found, you'll need to provide it later.${NC}
+cp finnish_ascii_map.json "$INSTALL_DIR/" 2>/dev/null || echo -e "${YELLOW}Warning: finnish_ascii_map.json not found, you'll need to provide it later.${NC}"
 echo -e "${YELLOW}Creating virtual environment...${NC}"
 python3 -m venv "$VENV_DIR"
 # Activate virtual environment and install dependencies
