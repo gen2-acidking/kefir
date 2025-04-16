@@ -1,0 +1,92 @@
+# python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# pip / poetry / conda environments
+env/
+venv/
+.venv/
+.conda/
+.venv.bak/
+*.egg-info/
+.eggs/
+
+# jupyter
+.ipynb_checkpoints/
+
+# build artifacts
+build/
+dist/
+*.egg
+*.manifest
+*.spec
+
+# test cache
+.pytest_cache/
+.tox/
+.coverage
+coverage.xml
+nosetests.xml
+test-output/
+htmlcov/
+.cache/
+
+# mypy / lint / typing
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# pylint
+pylint-report.txt
+
+# pyinstaller
+*.spec
+
+# editor & system files
+*.swp
+*.swo
+*~
+*.bak
+*.orig
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.idea/
+.vscode/
+*.code-workspace
+
+# local config
+.env
+.env.*
+*.env
+*.ini
+*.cfg
+*.toml
+secrets.*
+
+# project-specific
+tags
+*.sqlite3
+*.db
+*.lock
+
+# ipython
+.profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# poetry lock
+poetry.lock
+
+# docker
+docker-compose.override.yml
+
+# macos
+.AppleDouble
+.LSOverride
