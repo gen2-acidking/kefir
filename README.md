@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-git clone https://github.com/gen2acidking/kefir.git
+git clone https://github.com/gen2-acidking/kefir.git
 cd kefir
 chmod +x install.sh
 ./install.sh
